@@ -1,73 +1,41 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# ⭐ SOLID + NestJS + Exceptions
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+Neste repositório encontra-se o projeto criado na aula [✔️ CUIDADOS ao utilizar EXCEPTIONS no NEST! - SOLID + NESTJS + Exceptions de um jeito PROFISSIONAL!](https://www.youtube.com/watch?v=Y2C-T6P8Wxw) do [Doutorwaka](https://www.youtube.com/@doutorwaka).
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+No projeto, foi criado um exemplo de aplicação NestJS que utiliza os princípios SOLID para tratar exceções de forma profissional. Foram criadas classes de exceção personalizadas, um contrato para _exception handlers_ e um _controller advice_.
 
-## Description
+A ideia principal consiste em capturar as exceções personalizadas no _controller_ da **API** e então conseguir tratar essas exceções, garantindo um bom `log` e uma resposta adequada para o cliente.
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+# SOLID
 
-## Installation
+O acrônimo **_SOLID_** é um conjunto de princípios de design de código que visam facilitar a manutenção e a evolução do software. Ele foi introduzido por Robert C. Martin em 2000 e é composto por cinco princípios:
 
-```bash
-$ yarn install
-```
+- **S** - Single Responsibility Principle (Princípio da Responsabilidade Única)
+- **O** - Open/Closed Principle (Princípio do Aberto/Fechado)
+- **L** - Liskov Substitution Principle (Princípio da Substituição de Liskov)
+- **I** - Interface Segregation Principle (Princípio da Segregação de Interfaces)
+- **D** - Dependency Inversion Principle (Princípio da Inversão de Dependências)
 
-## Running the app
+# NestJS
 
-```bash
-# development
-$ yarn run start
+O [NestJS](https://nestjs.com/) é um framework para construção de aplicações Node.js eficientes, escaláveis e confiáveis. Ele utiliza TypeScript e é fortemente inspirado no Angular.
 
-# watch mode
-$ yarn run start:dev
+# Exceptions
 
-# production mode
-$ yarn run start:prod
-```
+As exceções são eventos que ocorrem durante a execução de um programa que interrompem o fluxo normal de execução. No JavaScript, as exceções são tratadas por meio de blocos `try-catch`.
 
-## Test
+## Para mais informações
 
-```bash
-# unit tests
-$ yarn run test
+Se quiser mais informações sobre o projeto, por favor me contate em [https://www.doutorwaka.com/contact](https://www.doutorwaka.com/contact).
 
-# e2e tests
-$ yarn run test:e2e
+## Mais sobre o autor
 
-# test coverage
-$ yarn run test:cov
-```
+Olá! Tudo bem? Eu me chamo José Eurípedes, tenho 36 anos e sou doutor em Ciência da Computação. Escrevi minhas primeiras linhas de código com 13 anos e hoje tenho uma grande paixão em ensinar tudo o que aprendi nessa minha caminhada de 23 anos de experiência.
 
-## Support
+Para saber mais sobre mim, basta acessar minhas redes sociais:
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+- [Meu Curso de Programação](https://www.doutorwaka.com/)
+- [YouTube](https://www.youtube.com/@doutorwaka)
+- [Instagram](https://instagram.com/doutorwaka)
+- [TikTok](https://www.tiktok.com/@doutorwaka)
+- [Site Pessoal](https://www.doutorwaka.com/)
